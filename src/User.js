@@ -2,8 +2,8 @@ import React from 'react';
 
 const User = (props) => {
 	return (
-		<div className="avatar">
-			<a href="/" className="avatar">
+		<div>
+			<a href="/" className="ui circular image">
 				<img alt="avatar" src={props.avatar} />
 			</a>
 			<div>

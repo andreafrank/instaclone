@@ -8,13 +8,13 @@ import faker from 'faker';
 
 const App = () => {
 	return (
-		<div className="ui container comments">
+		<div className="ui container">
+			<User 
+				author={faker.internet.userName()}
+				avatar={faker.image.avatar()}
+			/>
+
 			<Container>
-				<User 
-					author="hey"
-					timeAgo="what"
-					avatar={faker.image.avatar()}
-				/>
 
 				<Photo
 					photo_image={faker.image.image()}
