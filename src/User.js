@@ -2,7 +2,7 @@ import React from 'react';
 
 const User = (props) => {
 	return (
-		<div classname="avatar">
+		<div className="avatar">
 			<a href="/" className="avatar">
 				<img alt="avatar" src={props.avatar} />
 			</a>
