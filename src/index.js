@@ -9,10 +9,16 @@ import faker from 'faker';
 const App = () => {
 	return (
 		<div className="ui container">
-			<User 
-				author={faker.internet.userName()}
-				avatar={faker.image.avatar()}
-			/>
+			<div className="ui items">
+				<div className="item">
+					<div className="image">
+						<User 
+							author={faker.internet.userName()}
+							avatar={faker.image.avatar()}
+						/>
+					</div>
+				</div>
+			</div>
 
 			<Container>
 
