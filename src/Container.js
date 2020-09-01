@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Post = (props) => {
+const Container = (props) => {
 	return (
 		<div className="ui card">
 			<div className="content">{props.children}</div>
@@ -8,4 +8,4 @@ const Post = (props) => {
 	);
 };
 
-export default Post;
+export default Container;

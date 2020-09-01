@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import User from './User';
-import Post from './Post';
+import Container from './Container';
 import faker from 'faker';
 import styles from './styles.css'
 
 const App = () => {
 	return (
 		<div className="ui container comments">
-			<Post>
+			<Container>
 				<User 
 					author="hey"
 					timeAgo="what"
 					avatar={faker.image.avatar()}
 				/>
-			</Post>
+			</Container>
 		</div>
 	);
 };
