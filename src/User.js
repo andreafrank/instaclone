@@ -13,7 +13,7 @@ const User = (props) => {
 				<div className="metadata">
 					<span className="date">{props.timeAgo}</span>
 				</div>
-				<div className="text">{props.givenComment}</div>
+				<div className="text">{props.selfDescription}</div>
 			</div>
 		</div>
 	);
