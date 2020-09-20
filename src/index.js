@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import User from './User';
-import Container from './Container';
-import Photo from './Photo';
+import User from './components/User';
+import Container from './components/Container';
+import Photo from './components/Photo';
 import faker from 'faker';
 // import styles from './styles.css'
 
